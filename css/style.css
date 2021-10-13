@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+h3{
+    margin: 10px 0px;
+}
+p{
+    margin: 10px 0px;
+
+}
+.form{
+    padding: 10px;
+    border: 2px solid black;
+
+}
+#First{
+    width: 300px;
+    margin-right: 50px;
+    height: 30px;
+}
+#Last{
+    width: 300px;
+    height: 30px;
+}
+#DOB{
+    width: 660px;
+    height: 30px;
+}
+#email{
+    width: 660px;
+    height: 30px;
+}
+#phone{
+    width: 660px;
+    height: 30px;
+}
+#add{
+    width: 660px;
+    height: 30px;
+}
+#city{
+    width: 300px;
+    margin-right: 50px;
+    height: 30px;
+    margin-top: 10px;
+}
+#region{
+    width: 300px;
+    height: 30px;
+    margin-top: 10px;
+}
+#zip{
+    width: 300px;
+    margin-right: 50px;
+    height: 30px;
+    margin-top: 10px;
+}
+#sel{
+    width: 300px;
+    height: 30px;
+    margin-top: 10px;
+}
+#high{
+    width: 250px;
+    height: 30px;
+}
+#weight{
+    width: 250px;
+    height: 30px;
+}
+.an{
+    display: flex;
+}
+#submit{
+   margin-left: 300px;
+   height: 30px;
+   width: 50px;
+   
+}
+

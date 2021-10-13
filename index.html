@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Please Register</title>
+    <script src="js/events.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+     <div class="container">
+         <div class ="form">
+        <h1>Athlete Registration Form</h1>
+        <p>Thank you for signing up at our club .please fill inn your information and we will contact you shortly to <br>comlete your membership</p> 
+        <form action="" name="from" onsubmit="return(aman());">
+        <h3>Athlete Name:</h3>
+        <input type="text"  name="first" id ="First" placeholder="First">    <input type="text" name="last" id="Last" placeholder="Last">
+        <br>
+        <h3>DOB:</h3>
+        <input type="date" name="DOB" id="DOB" placeholder="MM/DD/YYYY">
+        <br>
+        <h3>Email:</h3>
+        <input type="email" name="email" id="email" placeholder="Email">
+        <br>
+        <h3>Phone:</h3>
+        <input type="number" name="phone" id="phone" placeholder="### ### ####">
+        <br>
+        
+    <h3>Mailing Address</h3>
+    <input type="text" name="add" id="add" placeholder="street address">
+    <br>
+    <input type="text" name="city" id="city"placeholder="City">    <input type="text" name="reg" id="region" placeholder="Region"><br>
+    <input type="number"  name="zip" id="zip" placeholder="Zip code">  
+     <select   name="sel" id="sel"> 
+         <option value="1">india</option> 
+         <option value="2">Nepal</option>
+         <option value="3">China</option> </select>
+         <br>
+        
+         <h3>Gender:</h3>
+         <input type="radio" id="Male" name="gender">
+           <label for="Male">Male</label>   
+           <input type="radio" id="Female" name="gender" >
+           <label for="Female">Female</label>
+         <br>
+         <br>
+    
+  <div class="an">
+           height:<br>
+          <input type="number" name="hig" id="high"> 
+          Weight:<br>
+          <input type="number" name="wig" id="weight"> 
+
+        </div>
+          <p>Does the athlete have a history of chronic illness?</p>
+          <input type="radio" id="yes" name="his">
+            <label for="yes">Yess</label>   
+            <input type="radio" id="no" name="his" >
+            <label for="no">No</label>
+
+
+          <p>Does the athlete have any allergies?</p>
+          <input type="radio" id="yes" name="ath">
+            <label for="yes">Yess</label> <br>  
+            <input type="radio" id="no" name="ath" >
+            <label for="no">No</label>
+
+<br>
+         <input type="submit" id="submit" value="submit">
+
+
+
+
+
+         
+          </form>
+          </div>
+     </div>
+    
+</body>
+
+</html>
