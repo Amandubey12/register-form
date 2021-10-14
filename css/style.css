@@ -68,13 +68,17 @@ p{
     height: 30px;
     margin-top: 10px;
 }
+.em{
+    margin: 300px;
+}
 #high{
-    width: 250px;
+    width: 300px;
     height: 30px;
 }
 #weight{
-    width: 250px;
+    width: 300px;
     height: 30px;
+    margin-left: 40px;
 }
 .an{
     display: flex;
